@@ -9,6 +9,7 @@ A simple Guide and batch script to flash steam controller dongles to watchman do
 ## Guide
 
 - Remove ALL SteamVR dongles, including the HMD.
+- Exit Steam
 - Plug in your Steam Controller Dongle to a USB.
 - open a Command Prompt (cmd or power shell)
 - Navigate to where SteamVR app is installed on your computer (default is: C:\Program Files (x86)\Steam\steamapps\common\SteamVR)
