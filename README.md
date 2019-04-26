@@ -1,6 +1,9 @@
 # SteamVR-Dongle-Flash
 A simple Guide and batch script to flash steam controller dongles to watchman dongles for SteamVR/OpenVR
 
+## Tested and Working
+ - As Of 4/26/19
+ 
 ## Requirements
 
 - A steamVR controller Dongle purchasable on [Steam](https://store.steampowered.com/app/530260/Steam_Controller_Wireless_Receiver/)
