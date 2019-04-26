@@ -27,7 +27,8 @@ A simple Guide and batch script to flash steam controller dongles to watchman do
 - There is a firmware that will Permanatly change the dongle, but you must be signed up for the SteamVR HDK Directions on how to do so can be found [here](https://partner.steamgames.com/vrlicensing)
 
 ## Batch File
-- The included Batch File should work as a 1-click solution Assuming the **Default** install locations (Steam installed on C: drive, and SteamVR installed there as well.
+- The Batch File is designed as a one click solution to do it for you.
+  - **NOTE** the batch file only works if Steam and SteamVR are installed to default directories in the C: drive.
 
 ## What should I see
 
