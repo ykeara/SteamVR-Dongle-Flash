@@ -23,7 +23,7 @@ A simple Guide and batch script to flash steam controller dongles to watchman do
 ## Notes
 
 - You should be able to flash multiple dongles at once, and not need to remove old ones, but as general precaution I advise against it.
-- This does not replace the bootloader so in theory you can convert your watchman Dongle back into a controller Dongle, But I have not tested.
+- This does not replace the bootloader so in theory you can convert your watchman Dongle back into a controller Dongle, But I have not tested. This should be done following roughly along with [this guide](https://support.steampowered.com/kb_article.php?ref=7728-QESJ-4420)
 - There is a firmware that will Permanatly change the dongle, but you must be signed up for the SteamVR HDK Directions on how to do so can be found [here](https://partner.steamgames.com/vrlicensing)
 
 ## Batch File
