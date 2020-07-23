@@ -8,6 +8,7 @@ A simple Guide and batch script to flash steam controller dongles to watchman do
 
 - A steamVR controller Dongle purchasable on ~~[Steam](https://store.steampowered.com/app/530260/Steam_Controller_Wireless_Receiver/)~~
   - [alternative dongle](https://www.virtualbuilds.com/product-page/usb-wireless-receiver-dongle) I haven't tried but should work, since dongle no longer purchaseable from steam.
+  - [alternative dongle 2](https://tundra-labs.com/shop/vive-dongle) Just Vive Dongles sold by 3rd party.
 - SteamVR installed on your computer
 
 ## WARNING
