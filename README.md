@@ -42,3 +42,29 @@ A simple Guide and batch script to flash steam controller dongles to watchman do
 - If the command is run you should see something similiar to this image:
 
 ![Dongle Firmware](/res/donglefirmware.png)
+
+## Issues
+
+This program changes the runtime firmware but not the bootloader.
+
+If you re-ender the bootloader (by doing a firmware update), it will boot up as a steam controller dongle waiting for firmware; Steam sees that and "recovers" it to be a steam controller dongle.
+
+Which would require you to rerun this program.
+
+`tools\lighthouse\firmware\vr_controller\archive\htc_vrc_dongle_1461100729_2016_04_19.bin` only contains the runtime firmware
+
+a bin file containing both the runtime and the bootloader firmware can be acquired by becoming following the steps at https://partner.steamgames.com/vrlicensing (this is a clickthrough process, no manual approving is done)
+- [Sign up as a Steam partner](https://partner.steamgames.com/)
+- [Sign up as a SteamVR Tracking licensee](https://partner.steamgames.com/pub/vrtrackingonboarding)
+- Install the SteamVR Tracking HDK steam://install/507090/
+
+the file is now available at `Steam\steamapps\common\SteamVR Tracking HDK\firmware\dongle\watchman_dongle_combined.bin`
+
+you can now follow the steps described in the [ReadMe](https://github.com/ykeara/SteamVR-Dongle-Flash/blob/master/README.md)
+but instead flashing the new file:
+
+- open a Command Prompt (cmd or power shell)
+- Navigate to where the SteamVR app is installed on your computer (default is: C:\Program Files (x86)\Steam\steamapps\common\SteamVR)
+  - Powershell CMD - `cd 'C:\Program Files (x86)\Steam\steamapps\common'`
+- Run the Command `SteamVR\tools\lighthouse\bin\win32\lighthouse_watchman_update.exe -D SteamVR Tracking HDK\firmware\dongle\watchman_dongle_combined.bin`
+- Restart Steam, plug your dongles in, close the command prompt/PowerShell, and you should be ready!
